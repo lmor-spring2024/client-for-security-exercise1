@@ -1,0 +1,26 @@
+
+.horizontal-ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+    }
+
+.horizontal-ul  li {
+      flex-direction: column;
+      padding: 0.2em;
+    }
+
+li input {
+      padding: 0.2em;
+      border-radius: 4px;
+      width: 100px;
+      border: 1px solid lightgray;
+}
+
+.password-container {
+      border: 1px gray solid;
+      background-color: lemonchiffon;
+      border-radius: 5px;
+      margin-left: 2em;
+}
